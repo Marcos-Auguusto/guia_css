@@ -3,22 +3,19 @@ body {
 }
 
 .container {
-    display: table;
-    width: 100%;
+    display: flex;
 }
 
 main {
-    display: table-cell;
     width: 70%;
     background-color: #fff;
-    border-radius: .2em;
+    border-radius: 0.5em;
 }
 
 sidebar {
-    display: table-cell;
     width: 30%;
-    margin-left: 1.5em;
     padding: 1.5em;
+    margin-left: 1.5em;
     background-color: #fff;
-    border-radius: 3em;
+    border-radius: 5em;
 }
