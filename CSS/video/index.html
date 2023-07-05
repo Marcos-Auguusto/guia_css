@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css" />
   </head>
   <body>
     <header>
-      <h1>📘 The Code Magazine</h1>
+      <h1>The Code Magazine</h1>
       <img src="img/laura-jones.jpg" alt="Laura Jones" width="50" height="50" />
-      <p>Posted by Laura Jones on Monday, June 21st 2027</p>
+      <p id="author">Posted by Laura Jones on Monday, June 21st 2027</p>
 
       <img src="img/post-img.jpg" alt="HTML code on a screen" width="500" />
     </header>
@@ -53,7 +54,7 @@
         There are countless reasons for learning the fundamental language of the
         web. Here are 5 of them:
       </p>
-      <ul>
+      <ul class="related">
         <li>To be able to use the fundamental web dev language</li>
         <li>
           To hand-craft beautiful websites instead of relying on tools like
@@ -66,29 +67,33 @@
       <p>Hopefully you learned something new here. See you next time!</p>
     </article>
     <anside>
-      <h4>Related posts</h4>
-      <ul>
-        <li>
-          <img
-            src="img/related-1.jpg"
-            alt="men working on computer"
-            width="75"
-          />
-          <a href="#">How to learn Web Development</a>
-          <p>By Jonas Schmedtman</p>
-        </li>
-        <li>
-          <img src="img/related-2.jpg" alt="lightning" width="75" />
-          <a href="#">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
-        </li>
-        <li>
-          <img src="img/related-3.jpg" alt="screen of codes" width="75" />
-          <a href="#">Why Javascript is Awesome</a>
-          <p>By Matilda</p>
-        </li>
-      </ul>
+      <div class="main-anside">
+        <ul class="related">
+          <h4>Related posts</h4>
+          <li>
+            <img
+              src="img/related-1.jpg"
+              alt="men working on computer"
+              width="75"
+            />
+            <a href="#">How to learn Web Development</a>
+            <p>By Jonas Schmedtman</p>
+          </li>
+          <li>
+            <img src="img/related-2.jpg" alt="lightning" width="75" />
+            <a href="#">The Unknown Powers of CSS</a>
+            <p>By Jim Dillon</p>
+          </li>
+          <li>
+            <img src="img/related-3.jpg" alt="screen of codes" width="75" />
+            <a href="#">Why Javascript is Awesome</a>
+            <p>By Matilda</p>
+          </li>
+        </ul>
+      </div>
     </anside>
-    <footer>Copyrigth &copy;</footer>
+    <footer>
+      <p id="copyrigth">Copyrigth &copy;</p>
+    </footer>
   </body>
 </html>
