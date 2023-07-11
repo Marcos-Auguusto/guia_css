@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.5;
@@ -8,6 +13,39 @@ h2,
 h3,
 h4 {
   color: rgb(8, 94, 94);
+}
+
+article,
+footer {
+  margin-left: 40px;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+.header-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 40px;
+}
+
+.main-title {
+  margin-bottom: 20px;
+  color: white;
+  background-color: rgb(8, 94, 94);
+  padding: 30px;
+}
+
+.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title-related {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #author {
@@ -25,9 +63,12 @@ h4 {
 
 .related a {
   text-decoration: none;
+  color: black;
 }
 
 .main-anside {
   background-color: rgb(231, 231, 231);
   border-top: 5px solid rgb(8, 94, 94);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
